@@ -13,7 +13,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        do {
+            let applicationSupportFolderURL = try FileManager.default.url(for: .applicationSupportDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
+           
+            let folder = applicationSupportFolderURL.appendingPathComponent("DataStore", isDirectory: true)
+            print("application support folder location: \(folder.path)")
+            if FileManager.default.fileExists(atPath: folder.path) {
+                try FileManager.default.removeItem(at: folder)
+            }
+        }catch {
+            print(error)
+        }
         return true
     }
 

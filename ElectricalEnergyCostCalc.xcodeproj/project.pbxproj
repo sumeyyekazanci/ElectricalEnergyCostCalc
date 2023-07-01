@@ -10,9 +10,16 @@
 		D7EB3A9A28B3DFF2004D4B94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EB3A9928B3DFF2004D4B94 /* AppDelegate.swift */; };
 		D7EB3A9C28B3DFF2004D4B94 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EB3A9B28B3DFF2004D4B94 /* SceneDelegate.swift */; };
 		D7EB3A9E28B3DFF2004D4B94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EB3A9D28B3DFF2004D4B94 /* ViewController.swift */; };
-		D7EB3AA128B3DFF2004D4B94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7EB3A9F28B3DFF2004D4B94 /* Main.storyboard */; };
 		D7EB3AA328B3DFF5004D4B94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7EB3AA228B3DFF5004D4B94 /* Assets.xcassets */; };
 		D7EB3AA628B3DFF5004D4B94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7EB3AA428B3DFF5004D4B94 /* LaunchScreen.storyboard */; };
+		D7EB3AAF28B3E1DB004D4B94 /* ElectricalEnergy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D7EB3AAD28B3E1DB004D4B94 /* ElectricalEnergy.xcdatamodeld */; };
+		D7EB3AB428B3E33B004D4B94 /* Consumption+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EB3AB028B3E33B004D4B94 /* Consumption+CoreDataClass.swift */; };
+		D7EB3AB528B3E33B004D4B94 /* Consumption+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EB3AB128B3E33B004D4B94 /* Consumption+CoreDataProperties.swift */; };
+		D7EB3AB628B3E33B004D4B94 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EB3AB228B3E33B004D4B94 /* User+CoreDataClass.swift */; };
+		D7EB3AB728B3E33B004D4B94 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EB3AB328B3E33B004D4B94 /* User+CoreDataProperties.swift */; };
+		D7EB3ABC28B3E394004D4B94 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EB3ABB28B3E394004D4B94 /* CoreDataManager.swift */; };
+		D7EB3ABF28B3ECAE004D4B94 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EB3ABE28B3ECAE004D4B94 /* Extensions.swift */; };
+		D7EB3AC128B40756004D4B94 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EB3AC028B40756004D4B94 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +27,17 @@
 		D7EB3A9928B3DFF2004D4B94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7EB3A9B28B3DFF2004D4B94 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D7EB3A9D28B3DFF2004D4B94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D7EB3AA028B3DFF2004D4B94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D7EB3AA228B3DFF5004D4B94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7EB3AA528B3DFF5004D4B94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7EB3AA728B3DFF5004D4B94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7EB3AAE28B3E1DB004D4B94 /* ElectricalEnergy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ElectricalEnergy.xcdatamodel; sourceTree = "<group>"; };
+		D7EB3AB028B3E33B004D4B94 /* Consumption+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Consumption+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D7EB3AB128B3E33B004D4B94 /* Consumption+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Consumption+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D7EB3AB228B3E33B004D4B94 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D7EB3AB328B3E33B004D4B94 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D7EB3ABB28B3E394004D4B94 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		D7EB3ABE28B3ECAE004D4B94 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D7EB3AC028B40756004D4B94 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,54 @@
 		D7EB3A9828B3DFF2004D4B94 /* ElectricalEnergyCostCalc */ = {
 			isa = PBXGroup;
 			children = (
-				D7EB3A9928B3DFF2004D4B94 /* AppDelegate.swift */,
-				D7EB3A9B28B3DFF2004D4B94 /* SceneDelegate.swift */,
-				D7EB3A9D28B3DFF2004D4B94 /* ViewController.swift */,
-				D7EB3A9F28B3DFF2004D4B94 /* Main.storyboard */,
-				D7EB3AA228B3DFF5004D4B94 /* Assets.xcassets */,
-				D7EB3AA428B3DFF5004D4B94 /* LaunchScreen.storyboard */,
+				D7EB3ABD28B3E446004D4B94 /* Views */,
+				D7EB3ABA28B3E36B004D4B94 /* Resources */,
+				D7EB3AB928B3E364004D4B94 /* Controllers */,
+				D7EB3AB828B3E355004D4B94 /* Managers */,
+				D7EB3AB028B3E33B004D4B94 /* Consumption+CoreDataClass.swift */,
+				D7EB3AB128B3E33B004D4B94 /* Consumption+CoreDataProperties.swift */,
+				D7EB3AB228B3E33B004D4B94 /* User+CoreDataClass.swift */,
+				D7EB3AB328B3E33B004D4B94 /* User+CoreDataProperties.swift */,
 				D7EB3AA728B3DFF5004D4B94 /* Info.plist */,
+				D7EB3AAD28B3E1DB004D4B94 /* ElectricalEnergy.xcdatamodeld */,
+				D7EB3ABE28B3ECAE004D4B94 /* Extensions.swift */,
+				D7EB3AC028B40756004D4B94 /* Constants.swift */,
 			);
 			path = ElectricalEnergyCostCalc;
+			sourceTree = "<group>";
+		};
+		D7EB3AB828B3E355004D4B94 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				D7EB3ABB28B3E394004D4B94 /* CoreDataManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		D7EB3AB928B3E364004D4B94 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D7EB3A9D28B3DFF2004D4B94 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D7EB3ABA28B3E36B004D4B94 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D7EB3A9B28B3DFF2004D4B94 /* SceneDelegate.swift */,
+				D7EB3A9928B3DFF2004D4B94 /* AppDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D7EB3ABD28B3E446004D4B94 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D7EB3AA228B3DFF5004D4B94 /* Assets.xcassets */,
+				D7EB3AA428B3DFF5004D4B94 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +180,6 @@
 			files = (
 				D7EB3AA628B3DFF5004D4B94 /* LaunchScreen.storyboard in Resources */,
 				D7EB3AA328B3DFF5004D4B94 /* Assets.xcassets in Resources */,
-				D7EB3AA128B3DFF2004D4B94 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +190,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7EB3AB428B3E33B004D4B94 /* Consumption+CoreDataClass.swift in Sources */,
+				D7EB3AC128B40756004D4B94 /* Constants.swift in Sources */,
 				D7EB3A9E28B3DFF2004D4B94 /* ViewController.swift in Sources */,
+				D7EB3AB728B3E33B004D4B94 /* User+CoreDataProperties.swift in Sources */,
 				D7EB3A9A28B3DFF2004D4B94 /* AppDelegate.swift in Sources */,
 				D7EB3A9C28B3DFF2004D4B94 /* SceneDelegate.swift in Sources */,
+				D7EB3ABF28B3ECAE004D4B94 /* Extensions.swift in Sources */,
+				D7EB3AAF28B3E1DB004D4B94 /* ElectricalEnergy.xcdatamodeld in Sources */,
+				D7EB3ABC28B3E394004D4B94 /* CoreDataManager.swift in Sources */,
+				D7EB3AB528B3E33B004D4B94 /* Consumption+CoreDataProperties.swift in Sources */,
+				D7EB3AB628B3E33B004D4B94 /* User+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D7EB3A9F28B3DFF2004D4B94 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D7EB3AA028B3DFF2004D4B94 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D7EB3AA428B3DFF5004D4B94 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,7 +343,6 @@
 				INFOPLIST_FILE = ElectricalEnergyCostCalc/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,7 +369,6 @@
 				INFOPLIST_FILE = ElectricalEnergyCostCalc/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -356,6 +406,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D7EB3AAD28B3E1DB004D4B94 /* ElectricalEnergy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D7EB3AAE28B3E1DB004D4B94 /* ElectricalEnergy.xcdatamodel */,
+			);
+			currentVersion = D7EB3AAE28B3E1DB004D4B94 /* ElectricalEnergy.xcdatamodel */;
+			path = ElectricalEnergy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D7EB3A8E28B3DFF2004D4B94 /* Project object */;
 }
